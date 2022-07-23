@@ -1,0 +1,51 @@
+@media only screen and (max-width:510px){
+
+    .header-section-wrapper {
+        padding: 52px;
+    }
+    .header-section-wrapper {
+        display: block;
+    }
+    
+    .header-left-site, .header-right-side {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right-side{
+        text-align: center;
+    }
+    .header-right-side img {
+        transform: scale(1.1);
+        position: relative;
+        bottom: -66px;
+        right: 0px;
+    }
+    .header-left-site h1 {
+        font-size: 30px;
+    }
+    .header-left-site p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .watch-live-button a {
+        padding: 10px 13px;
+        font-size: 15px;
+    }
+
+    .switching-tab{
+        background: #222222;
+        padding: 25px;
+        color:#fff;
+        border-radius: 10px;
+        height: 190px;
+    }
+    .switche-all a{
+        display: block;
+        width: 100%;
+        border:none;
+    }
+    .switche-all a:nth-child(2){
+        margin: 20px 0;
+    }
+
+}
